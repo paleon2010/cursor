@@ -1,0 +1,23 @@
+"Genera un código en C utilizando FreeRTOS para un ESP32-WROOM-32 que contenga las siguientes tareas separadas:
+
+Configuración de WiFi:
+
+Crear una tarea que se conecte a una red WiFi utilizando el SSID 'repetidor' y la contraseña 'JHUYUIJ'.
+
+Lectura de tarjeta MicroSD:
+
+Crear una segunda tarea que lea datos de una tarjeta MicroSD usando SPI.
+Asegúrate de incluir la inicialización de la tarjeta y el manejo de errores.
+Implementa un mutex para controlar el acceso a los datos en la tarjeta.
+Visualización en pantalla OLED:
+
+Crear una tercera tarea que visualice el contenido de la tarjeta MicroSD en una pantalla OLED de 128x64 mediante I2C.
+Considera el formato necesario para mostrar el contenido de forma legible.
+Utiliza el mutex creado para acceder a los datos de la tarjeta de manera segura.
+Servidor Web:
+
+Implementa un servidor web que liste los archivos disponibles en la tarjeta MicroSD.
+Permite la descarga de los archivos y usa el mutex para coordinar el acceso a los datos entre la tarea del servidor web y la visualización en OLED.
+Asegúrate de que el código sea modular y fácil de entender, con comentarios explicativos sobre cada función y tarea."
+
+No usar pines de strapping del módulo en ninguna parte del codigo
