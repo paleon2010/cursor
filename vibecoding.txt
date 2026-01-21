@@ -22,4 +22,4 @@ Asegúrate de que el código sea modular y fácil de entender, con comentarios e
 
 No usar pines de strapping del módulo en ninguna parte del codigo
 
-cambio en el vibecoding pendiente
+
